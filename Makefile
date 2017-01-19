@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall
-OBJS = main.o
-HDRS = 
+OBJS = main.o commands.o
+HDRS = commands.h
 EXEC = myshell
 
 .SUFFIXES: .c
