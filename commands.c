@@ -7,7 +7,7 @@
 
 #include "commands.h"
 
-bool processInput(char** input) {
+bool process_command(char** input) {
     if (strcmp(input[0], "exit") == 0 || strcmp(input[0], "quit") == 0) {
         return false;
     } else {

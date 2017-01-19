@@ -53,3 +53,7 @@ dkms.conf
 
 # Executable
 myshell
+
+# Documentation files
+html/
+latex/

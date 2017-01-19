@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
         
         char** input = read_command();
 
-        keepGoing = processInput(input);
+        keepGoing = process_command(input);
 
         free_command(input);
     }
